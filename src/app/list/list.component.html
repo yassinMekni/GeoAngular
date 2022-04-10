@@ -1,0 +1,14 @@
+<input  class="form-control"  placeholder="chercher ..." style="margin: 15px;">
+
+
+
+<div class="row"  >
+    <div *ngFor="let pays of lesPays" class="box-shadow col-sm-4 p-3 ; carde" >
+        <div class="card " style="border-radius: 10px;" >
+            <img class="png" src="{{pays.flags.png}}"  >
+            <h2 style="padding: 10px;margin-left: 50px;">{{pays.name.common}}</h2>
+            <button type="button"  class="btn"  > Détails</button>  
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.box-shadow{
+    box-shadow: 0px 10px 30px rgb(46, 46, 73);
+}
+.png {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+}
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 15px;
+}
+.carde :hover{
+    background-color: rgb(87, 81, 99);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+
+}
